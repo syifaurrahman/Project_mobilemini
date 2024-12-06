@@ -27,6 +27,6 @@
 ### Langkah-Langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/username/food-delivery-ui.git
+   git clone https://github.com/syifaurrahman/Project_mobilemini.git
    cd food-delivery-ui
 
