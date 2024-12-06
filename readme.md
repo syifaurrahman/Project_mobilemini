@@ -36,7 +36,7 @@
    ```bash
    flutter run
 
-##Status Proyek 🛠
+## Status Proyek 🛠
 Saat ini, proyek hanya mencakup tampilan antarmuka pengguna. Fitur backend dan fungsionalitas lainnya belum diimplementasikan.
 
 
