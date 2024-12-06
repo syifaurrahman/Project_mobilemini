@@ -28,5 +28,15 @@
 1. **Clone Repository**  
    ```bash
    git clone https://github.com/syifaurrahman/Project_mobilemini.git
-   cd food-delivery-ui
+   cd food_delivery_app
+2. **Install Dependencies**  
+   ```bash
+   flutter pub get
+3. **Jalankan Aplikasi**  
+   ```bash
+   flutter run
+
+##Status Proyek 🛠
+Saat ini, proyek hanya mencakup tampilan antarmuka pengguna. Fitur backend dan fungsionalitas lainnya belum diimplementasikan.
+
 
