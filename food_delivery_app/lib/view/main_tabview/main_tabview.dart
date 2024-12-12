@@ -21,7 +21,7 @@ class _MainTabViewState extends State<MainTabView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageStorage(bucket: storageBucket, child: selectPageView),
+  body: PageStorage(bucket: storageBucket, child: selectPageView),
       backgroundColor: const Color(0xfff5f5f5),
       floatingActionButtonLocation:
           FloatingActionButtonLocation.miniCenterDocked,
