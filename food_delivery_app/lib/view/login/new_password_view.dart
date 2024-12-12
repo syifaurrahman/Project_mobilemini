@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/common/color_extension.dart';
-import 'package:food_delivery_app/common/extension.dart';
 import 'package:food_delivery_app/common_widget/round_button.dart';
-import 'package:food_delivery_app/view/login/login_view.dart';
-import '../../common/globs.dart';
 import '../../common_widget/round_textfield.dart';
 
 class NewPasswordView extends StatefulWidget {

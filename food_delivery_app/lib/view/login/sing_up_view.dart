@@ -1,14 +1,10 @@
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/common/color_extension.dart';
-import 'package:food_delivery_app/common/extension.dart';
 import 'package:food_delivery_app/common_widget/round_button.dart';
 import 'package:food_delivery_app/view/login/login_view.dart';
 
-import '../../common/globs.dart';
 import '../../common_widget/round_textfield.dart';
-import '../on_boarding/on_boarding_view.dart';
 
 class SignUpView extends StatefulWidget {
   const SignUpView({super.key});

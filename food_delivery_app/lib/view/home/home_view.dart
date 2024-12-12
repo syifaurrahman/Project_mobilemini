@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery_app/common/color_extension.dart';
 import 'package:food_delivery_app/common_widget/round_textfield.dart';
 
-import '../../common/globs.dart';
 import '../../common_widget/category_cell.dart';
 import '../../common_widget/most_popular_cell.dart';
 import '../../common_widget/popular_resutaurant_row.dart';

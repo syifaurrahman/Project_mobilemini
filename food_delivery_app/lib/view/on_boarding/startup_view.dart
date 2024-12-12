@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:food_delivery_app/view/login/welcome_view.dart';
 
 class StartupView extends StatefulWidget {

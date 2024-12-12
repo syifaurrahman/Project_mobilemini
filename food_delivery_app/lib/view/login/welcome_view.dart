@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/common/color_extension.dart';
 import 'package:food_delivery_app/common_widget/round_button.dart';
+import 'package:food_delivery_app/view/home/home_view.dart';
+import 'package:food_delivery_app/view/login/login_view.dart';
+import 'package:food_delivery_app/view/login/sing_up_view.dart';
 
 class WelcomeView extends StatefulWidget {
   const WelcomeView({super.key});
@@ -54,7 +57,7 @@ class _WelcomeViewState extends State<WelcomeView> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => Container(),
+                    builder: (context) => const LoginView(),
                   ),
                 );
               },
@@ -68,7 +71,14 @@ class _WelcomeViewState extends State<WelcomeView> {
             child: RoundButton(
               title: "Create an Account",
               type: RoundButtonType.textPrimary,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SignUpView(),
+                  ),
+                );
+              },
             ),
           ),
         ],
