@@ -120,7 +120,7 @@ class _MenuViewState extends State<MenuView> {
                       itemBuilder: ((context, index) {
                         var mObj = menuArr[index] as Map? ?? {};
                         return GestureDetector(
-                          onTap: () {
+                          onTap: () { 
                             Navigator.push(
                               context,
                               MaterialPageRoute(

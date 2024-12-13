@@ -141,8 +141,11 @@ class _MenuItemsViewState extends State<MenuItemsView> {
                 itemBuilder: ((context, index) {
                   var rObj = recentArr[index] as Map? ?? {};
                   return RecentItemRow(
-                    rObj: rObj,
-                    onTap: () {},
+                    mObj: mObj,
+                    onTap: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => conts ItemDetailsView() ), );
+
+                    },
                   );
                 }),
               )

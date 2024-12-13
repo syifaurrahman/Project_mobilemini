@@ -17,6 +17,24 @@ class _ItemDetailsViewState extends State<ItemDetailsView> {
       body: Stack(
         alignment: Alignment.topCenter,
         children: [
+
+          Image.asset("assets/img/detail_top.png", width: media.width, height: media.width, fit: BoxFit.cover, ),
+
+
+          Container(
+
+            width: media.width, 
+            height: media.width,  
+                    decoration:conts BoxDecoration(
+                      gradient:LinearGradie(
+                        colors: [Colors.black, Colors.transparent, Colors.black], begin: Alignment.topCenter, end: Alignment.bottomCenter), ),
+                        
+                       ),
+                       ), 
+                    
+
+
+
           SingleChildScrollView(
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 20),
@@ -31,7 +49,13 @@ class _ItemDetailsViewState extends State<ItemDetailsView> {
                         borderRadius: const BorderRadius.only(
                             topLeft: Radius.circular(30),
                             topRight: Radius.circular(30))),
-                    child: Column(children: [
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAligment.start,
+                      children: [
+
+                      conts SizedBox(
+                        height:20,
+                      ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 20),
                         child: Text(
@@ -42,6 +66,11 @@ class _ItemDetailsViewState extends State<ItemDetailsView> {
                               fontWeight: FontWeight.w800),
                         ),
                       ),
+                      Row(
+                        mainAxisAligment: MainAxisAlignment.spaceBetween, 
+                        children: [
+
+                      ]),
                     ]),
                   ),
                   const SizedBox(
@@ -61,30 +90,25 @@ class _ItemDetailsViewState extends State<ItemDetailsView> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: Row(
+                    mainAxisAligment: MainAxisAlignment.spaceBetween,
                     children: [
                       IconButton(
                         onPressed: () {
                           Navigator.pop(context);
                         },
                         icon: Image.asset("assets/img/btn_back.png",
-                            width: 20, height: 20),
+                            width: 20, height: 20, color: TColor.white,
+                            ),
                       ),
-                      const SizedBox(
-                        width: 8,
-                      ),
-                      // Text(
-                      //   widget.mObj["name"].toString(),
-                      //   style: TextStyle(
-                      //       color: TColor.primaryText,
-                      //       fontSize: 20,
-                      //       fontWeight: FontWeight.w800),
-                      // ),
+                      
+                      
                       IconButton(
                         onPressed: () {},
                         icon: Image.asset(
                           "assets/img/shopping_cart.png",
                           width: 25,
                           height: 25,
+                          color: TColor.white,
                         ),
                       ),
                     ],
